@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/LoginEmail"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:shadowColor="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="298dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/LoginPassword"
+        android:layout_width="264dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Parolă"
+        android:inputType="textPassword"
+        android:shadowColor="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBtn"
+        android:layout_width="227dp"
+        android:layout_height="68dp"
+        android:background="#FFAEA6CE"
+        android:fadingEdge="horizontal|vertical"
+        android:fontFamily="monospace"
+        android:text="Autenficare"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <TextView
+        android:id="@+id/tvSwitchtoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Nu ai un cont? Înregistrează-te aici!"
+        android:textColor="#FFAEA6CE"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dev. by L. Bohuș"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+</androidx.constraintlayout.widget.ConstraintLayout>
